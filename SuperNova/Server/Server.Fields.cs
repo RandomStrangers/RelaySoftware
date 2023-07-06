@@ -44,7 +44,7 @@ namespace SuperNova {
         public static PlayerMetaList Notes = new PlayerMetaList("text/notes.txt");
         
         /// <summary> *** DO NOT USE THIS! *** Use VersionString, as this field is a constant and is inlined if used. </summary>
-        public const string InternalVersion = "1.0.0.0";
+        public const string InternalVersion = "1.0.0.1";
         public const string InternalVersion2 = "9.5.4.0"; // This is kept so that plugins made for the SuperNova software
                                                           // still work, since this is based off of v9.5.4.0.
         public static string Version { get { return InternalVersion; } }

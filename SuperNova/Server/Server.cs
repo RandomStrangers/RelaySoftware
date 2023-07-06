@@ -257,6 +257,8 @@ namespace SuperNova {
             Logger.Log(LogType.Warning, "&fGoodbye Cruel World!");
             try
             {
+                Command.Find("say").Use(Player.Console, "Goodbye Cruel World!");
+                Logger.Log(LogType.Warning, "&fGoodbye Cruel World!");
                 Logger.Log(LogType.SystemActivity, "Server Updating ({0})", msg);
             }
             catch { }
@@ -308,6 +310,8 @@ namespace SuperNova {
 
             try
             {
+                Command.Find("say").Use(Player.Console, "Goodbye Cruel World!");
+                Logger.Log(LogType.Warning, "&fGoodbye Cruel World!");
                 Logger.Log(LogType.SystemActivity, "Server shutdown completed");
             }
             catch { }
@@ -331,6 +335,8 @@ namespace SuperNova {
 
 
         static void ShutdownThread(bool restarting, string msg) {
+            Command.Find("say").Use(Player.Console, "Goodbye Cruel World!");
+            Logger.Log(LogType.Warning, "&fGoodbye Cruel World!");
             try {
                 Command.Find("say").Use(Player.Console, "Goodbye Cruel World!");
                 Logger.Log(LogType.SystemActivity, "Server shutting down ({0})", msg);

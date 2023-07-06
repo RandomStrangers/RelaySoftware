@@ -10,7 +10,7 @@ namespace SuperNova
 		// public override string welcome { get { return "Loaded Message!"; } } You actually don't need to put this in here, it just sends a message when loaded.
 		public override string creator { get { return "RandomStrangers & ccatgirl"; } } // Made from StartupNotify, so added you here, if you even decide to look at this.
 		public override void Load(bool startup) {
-     Server.Background.QueueOnce(SayHello, null, TimeSpan.FromSeconds(10));
+     Server.MainScheduler.QueueOnce(SayHello, null, TimeSpan.FromSeconds(10));
 		}
    
   void SayHello(SchedulerTask task) {
@@ -19,7 +19,7 @@ namespace SuperNova
   }
 	public override void Unload(bool shutdown)
 		{
-     Server.Background.QueueOnce(SayGoodbye, null, TimeSpan.FromSeconds(0));
+     Server.MainScheduler.QueueOnce(SayGoodbye, null, TimeSpan.FromSeconds(0));
 		}
   void SayGoodbye(SchedulerTask task) {
     Command.Find("say").Use(Player.Console, "Goodbye Cruel World!");

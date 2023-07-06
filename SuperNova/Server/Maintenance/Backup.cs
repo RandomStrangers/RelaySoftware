@@ -23,7 +23,7 @@ using SuperNova.SQL;
 namespace SuperNova {
     /// <summary> Utility methods for backing up and restoring a server. </summary>
     public static class Backup {
-        const string zipPath = "SuperNova.zip", sqlPath = "SQL.sql", dbPath = "SuperNova.db";
+        const string zipPath = "Relay.zip", sqlPath = "SQL.sql", dbPath = "Relay.db";
         
         public static void Perform(Player p, bool files, bool db, bool lite, bool compress) {
             if (db) {

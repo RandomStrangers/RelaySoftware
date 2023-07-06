@@ -40,21 +40,24 @@ namespace SuperNova {
 #endif
         public static string WikiURL = "https://github.com/UnknownShadow200/MCGalaxy";
 
-        const string CurrentVersionURL = BaseURL + "Uploads/current_version.txt";
+       const string CurrentVersionURL = BaseURL + "Uploads/current_version.txt";
 #if DEV_BUILD_NOVA
         const string dllURL = UpdatesURL + "SuperNova_Core.dll";
         const string guiURL = UpdatesURL + "SuperNova_CoreGUI.exe";
-        const string changelogURL = BaseURL + "Changelog.txt";
+        // const string changelogURL = BaseURL + "Changelog.txt";
+        // pointless, since I don't update the changelog...
         const string cliURL = UpdatesURL + "SuperNovaCLI_Core.exe";
 #elif DEV_BUILD_RELAY
         const string dllURL = UpdatesURL + "Relay_.dll";
         const string guiURL = UpdatesURL + "Relay.exe";
-        const string changelogURL = BaseURL + "Changelog.txt";
+        // const string changelogURL = BaseURL + "Changelog.txt";
+        // pointless, since I don't update the changelog...
         const string cliURL = UpdatesURL + "RelayCLI.exe";
 #else
         const string dllURL = UpdatesURL + "SuperNova_.dll";
         const string guiURL = UpdatesURL + "SuperNova.exe";
-        const string changelogURL = BaseURL + "Changelog.txt";
+        // const string changelogURL = BaseURL + "Changelog.txt";
+        // pointless, since I don't update the changelog...
         const string cliURL = UpdatesURL + "SuperNovaCLI.exe";
 #endif
 
@@ -117,7 +120,8 @@ namespace SuperNova {
                 client.DownloadFile(guiURL, "SuperNova.update");
                 client.DownloadFile(cliURL, "SuperNovaCLI.update");
 #endif
-                client.DownloadFile(changelogURL, "Changelog.txt");
+                // client.DownloadFile(changelogURL, "Changelog.txt");
+                // pointless, since I don't update the changelog...
 
                 Level[] levels = LevelInfo.Loaded.Items;
                 foreach (Level lvl in levels) {

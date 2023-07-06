@@ -341,7 +341,7 @@ namespace SuperNova.Scripting
                 AddReferences(path, args);
                 srcPaths[i] = path;
             }
-            args.ReferencedAssemblies.Add("SuperNova_.dll");
+            args.ReferencedAssemblies.Add("Relay_.dll");
             
             PrepareArgs(args);
             InitCompiler();

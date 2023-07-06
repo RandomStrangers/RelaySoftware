@@ -45,7 +45,7 @@ namespace SuperNova
 				if (route.srcBot != bot) continue;
 				if (route.srcChan != channel) continue;
 				
-				string msg = "(" + bot.RelayName + ") " + user.Nick + ": " + message;
+				string msg = user.Nick + ": " + message;
 				route.dstBot.SendMessage(route.dstChan, msg);
 			}
 		}
