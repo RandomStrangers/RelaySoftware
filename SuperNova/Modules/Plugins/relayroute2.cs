@@ -9,7 +9,8 @@ namespace SuperNova
 {
     public sealed class RelayRoutePlugin2 : Plugin
     {
-        public override string SuperNova_Version { get { return "1.9.3.4"; } }
+        public override string creator { get { return Server.SoftwareName + " team"; } }
+        public override string SuperNova_Version { get { return Server.Version; } }
         public override string name { get { return "RelayRoute2"; } }
         List<Route> routes = new List<Route>();
 

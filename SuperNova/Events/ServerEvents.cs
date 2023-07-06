@@ -42,13 +42,13 @@ namespace SuperNova.Events.ServerEvents {
     public delegate void OnShuttingDown(bool restarting, string reason);
     /// <summary> Called when the server is shutting down or restarting. </summary>
     public sealed class OnShuttingDownEvent : IEvent<OnShuttingDown> {
-        static void SayGoodbye(SchedulerTask task)
+       /* static void SayGoodbye(SchedulerTask task)
         {
             Command.Find("say").Use(Player.Console, "Goodbye Cruel World!");
             Logger.Log(LogType.Warning, "&fGoodbye Cruel World!");
-        }
+        }*/
         public static void Call(bool restarting, string reason) {
-            Background.QueueOnce(SayGoodbye, null, TimeSpan.FromSeconds(0));
+            //Background.QueueOnce(SayGoodbye, null, TimeSpan.FromSeconds(0));
 
             if (handlers.Count == 0) return;
             CallCommon(pl => pl(restarting, reason));

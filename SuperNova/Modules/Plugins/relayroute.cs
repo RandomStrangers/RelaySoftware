@@ -16,7 +16,8 @@ namespace SuperNova
 {
 	public sealed class RelayRoutePlugin : Plugin
 	{
-		public override string SuperNova_Version { get { return "1.9.3.4"; } }
+        public override string creator { get { return Server.SoftwareName + " team"; } }
+        public override string SuperNova_Version { get { return Server.Version; } }
 		public override string name { get { return "RelayRoute"; } }
 		List<Route> routes = new List<Route>();
 		
@@ -37,12 +38,16 @@ namespace SuperNova
 		}
 		
 		void OnMessage(RelayBot bot, string channel, RelayUser user, string message, ref bool cancel) {
-			// ignore messages from relay bots themselves
+			// ignore messages from relay bots themselves.
 			if (cancel || user.ID == bot.UserID) return;
-			
-			foreach (Route route in routes)
+			// do not send the shutdown message twice.
+            string say = "Goodbye Cruel World!";
+            if (cancel || message == say)  return;
+
+            foreach (Route route in routes)
 			{
-				if (route.srcBot != bot) continue;
+                if (message != say) continue;
+                if (route.srcBot != bot) continue;
 				if (route.srcChan != channel) continue;
 				
 				string msg = user.Nick + ": " + message;
