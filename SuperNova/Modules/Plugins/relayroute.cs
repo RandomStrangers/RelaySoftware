@@ -41,12 +41,12 @@ namespace SuperNova
 			// ignore messages from relay bots themselves.
 			if (cancel || user.ID == bot.UserID) return;
 			// do not send the shutdown message twice.
-            string say = "Goodbye Cruel World!";
-            if (cancel || message == say)  return;
+           // string say = "Goodbye Cruel World!";
+          //  if (cancel || message == say)  return;
 
             foreach (Route route in routes)
 			{
-                if (message != say) continue;
+               // if (message != say) continue;
                 if (route.srcBot != bot) continue;
 				if (route.srcChan != channel) continue;
 				
