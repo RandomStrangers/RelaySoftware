@@ -1,5 +1,5 @@
 /*
-Copyright 2012 SuperNova
+Copyright 2012 RelaySoftware
 Dual-licensed under the Educational Community License, Version 2.0 and
 the GNU General Public License, Version 3 (the "Licenses"); you may
 not use this file except in compliance with the Licenses. You may
@@ -19,13 +19,13 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using System.Xml;
-using SuperNova.Network;
-//This upnp class comes from http://www.codeproject.com/Articles/27992/NAT-Traversal-with-UPnP-in-C, Modified for use with SuperNova
+using RelaySoftware.Network;
+//This upnp class comes from http://www.codeproject.com/Articles/27992/NAT-Traversal-with-UPnP-in-C, Modified for use with RelaySoftware
 // Some relatively straightforward documentation on how UPnP works:
 //  http://www.upnp-hacks.org/upnp.html
 //  http://www.upnp-hacks.org/igd.html
 
-namespace SuperNova 
+namespace RelaySoftware 
 {
     public static class UPnP 
     {

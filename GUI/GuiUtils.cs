@@ -1,5 +1,5 @@
 ﻿/*
-    Copyright 2015 SuperNova
+    Copyright 2015 RelaySoftware
     
     Dual-licensed under the Educational Community License, Version 2.0 and
     the GNU General Public License, Version 3 (the "Licenses"); you may
@@ -20,7 +20,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace SuperNova.Gui 
+namespace RelaySoftware.Gui 
 {
     /// <summary> Shortcuts for MessageBox.Show </summary>
     public static class Popup 
@@ -50,7 +50,7 @@ namespace SuperNova.Gui
     
     public static class GuiUtils 
     {   
-    	/// <summary> SuperNova window icon (shared) </summary>
+    	/// <summary> RelaySoftware window icon (shared) </summary>
     	public static Icon WinIcon;
     	
     	public static void SetIcon(Form form) {

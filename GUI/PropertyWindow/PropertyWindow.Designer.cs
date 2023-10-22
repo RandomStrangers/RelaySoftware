@@ -1,5 +1,5 @@
 /*
-Copyright 2010 MCSharp team (Modified for use with MCZall/MCLawl/SuperNova)
+Copyright 2010 MCSharp team (Modified for use with MCZall/MCLawl/RelaySoftware)
 
 Dual-licensed under the Educational Community License, Version 2.0 and
 the GNU General Public License, Version 3 (the "Licenses"); you may
@@ -15,7 +15,7 @@ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
 or implied. See the Licenses for the specific language governing
 permissions and limitations under the Licenses.
 */
-namespace SuperNova.Gui
+namespace RelaySoftware.Gui
 {
     partial class PropertyWindow
     {
@@ -128,7 +128,7 @@ namespace SuperNova.Gui
             this.dis_linkHelp = new System.Windows.Forms.LinkLabel();
             this.adv_chkCPE = new System.Windows.Forms.CheckBox();
             this.eco_cmbItemRank = new System.Windows.Forms.ComboBox();
-            this.rank_numUndo = new SuperNova.Gui.TimespanUpDown();
+            this.rank_numUndo = new RelaySoftware.Gui.TimespanUpDown();
             this.chkPhysRestart = new System.Windows.Forms.CheckBox();
             this.ls_numMax = new System.Windows.Forms.NumericUpDown();
             this.ls_numKiller = new System.Windows.Forms.NumericUpDown();
@@ -140,7 +140,7 @@ namespace SuperNova.Gui
             this.ls_numHeight = new System.Windows.Forms.NumericUpDown();
             this.ls_cbMain = new System.Windows.Forms.CheckBox();
             this.ls_cbStart = new System.Windows.Forms.CheckBox();
-            this.rank_numAfk = new SuperNova.Gui.TimespanUpDown();
+            this.rank_numAfk = new RelaySoftware.Gui.TimespanUpDown();
             this.sec_cbLogNotes = new System.Windows.Forms.CheckBox();
             this.sec_cbChatAuto = new System.Windows.Forms.CheckBox();
             this.pageBlocks = new System.Windows.Forms.TabPage();
@@ -191,23 +191,23 @@ namespace SuperNova.Gui
             this.rank_list = new System.Windows.Forms.ListBox();
             this.pageMisc = new System.Windows.Forms.TabPage();
             this.grpExtra = new System.Windows.Forms.GroupBox();
-            this.misc_numReview = new SuperNova.Gui.TimespanUpDown();
+            this.misc_numReview = new RelaySoftware.Gui.TimespanUpDown();
             this.chkRestart = new System.Windows.Forms.CheckBox();
             this.misc_lblReview = new System.Windows.Forms.Label();
             this.chkRepeatMessages = new System.Windows.Forms.CheckBox();
             this.chk17Dollar = new System.Windows.Forms.CheckBox();
             this.chkSmile = new System.Windows.Forms.CheckBox();
             this.grpMessages = new System.Windows.Forms.GroupBox();
-            this.hack_num = new SuperNova.Gui.TimespanUpDown();
+            this.hack_num = new RelaySoftware.Gui.TimespanUpDown();
             this.grpPhysics = new System.Windows.Forms.GroupBox();
             this.txtRP = new System.Windows.Forms.TextBox();
             this.chkRpNorm = new System.Windows.Forms.Label();
             this.txtNormRp = new System.Windows.Forms.TextBox();
             this.afk_grp = new System.Windows.Forms.GroupBox();
-            this.afk_numTimer = new SuperNova.Gui.TimespanUpDown();
+            this.afk_numTimer = new RelaySoftware.Gui.TimespanUpDown();
             this.afk_lblTimer = new System.Windows.Forms.Label();
             this.bak_grp = new System.Windows.Forms.GroupBox();
-            this.bak_numTime = new SuperNova.Gui.TimespanUpDown();
+            this.bak_numTime = new RelaySoftware.Gui.TimespanUpDown();
             this.bak_lblLocation = new System.Windows.Forms.Label();
             this.bak_txtLocation = new System.Windows.Forms.TextBox();
             this.bak_lblTime = new System.Windows.Forms.Label();
@@ -301,9 +301,9 @@ namespace SuperNova.Gui
             this.ls_btnStart = new System.Windows.Forms.Button();
             this.ls_grpMapSettings = new System.Windows.Forms.GroupBox();
             this.ls_grpTime = new System.Windows.Forms.GroupBox();
-            this.ls_numFlood = new SuperNova.Gui.TimespanUpDown();
-            this.ls_numLayerTime = new SuperNova.Gui.TimespanUpDown();
-            this.ls_numRound = new SuperNova.Gui.TimespanUpDown();
+            this.ls_numFlood = new RelaySoftware.Gui.TimespanUpDown();
+            this.ls_numLayerTime = new RelaySoftware.Gui.TimespanUpDown();
+            this.ls_numRound = new RelaySoftware.Gui.TimespanUpDown();
             this.ls_lblLayerTime = new System.Windows.Forms.Label();
             this.ls_lblFlood = new System.Windows.Forms.Label();
             this.ls_lblRound = new System.Windows.Forms.Label();
@@ -333,9 +333,9 @@ namespace SuperNova.Gui
             this.zs_btnStart = new System.Windows.Forms.Button();
             this.zs_grpMap = new System.Windows.Forms.GroupBox();
             this.zs_grpTime = new System.Windows.Forms.GroupBox();
-            this.timespanUpDown1 = new SuperNova.Gui.TimespanUpDown();
-            this.timespanUpDown2 = new SuperNova.Gui.TimespanUpDown();
-            this.timespanUpDown3 = new SuperNova.Gui.TimespanUpDown();
+            this.timespanUpDown1 = new RelaySoftware.Gui.TimespanUpDown();
+            this.timespanUpDown2 = new RelaySoftware.Gui.TimespanUpDown();
+            this.timespanUpDown3 = new RelaySoftware.Gui.TimespanUpDown();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -374,7 +374,7 @@ namespace SuperNova.Gui
             this.zs_lstNotUsed = new System.Windows.Forms.ListBox();
             this.zs_lstUsed = new System.Windows.Forms.ListBox();
             this.tabZS_old = new System.Windows.Forms.TabPage();
-            this.propsZG = new SuperNova.Gui.HackyPropertyGrid();
+            this.propsZG = new RelaySoftware.Gui.HackyPropertyGrid();
             this.tabCTF = new System.Windows.Forms.TabPage();
             this.ctf_grpControls = new System.Windows.Forms.GroupBox();
             this.ctf_btnEnd = new System.Windows.Forms.Button();
@@ -401,7 +401,7 @@ namespace SuperNova.Gui
             this.tw_cbKills = new System.Windows.Forms.CheckBox();
             this.tw_cbBalance = new System.Windows.Forms.CheckBox();
             this.tw_grpGrace = new System.Windows.Forms.GroupBox();
-            this.tw_numGrace = new SuperNova.Gui.TimespanUpDown();
+            this.tw_numGrace = new RelaySoftware.Gui.TimespanUpDown();
             this.tw_lblGrace = new System.Windows.Forms.Label();
             this.tw_cbGrace = new System.Windows.Forms.CheckBox();
             this.tw_grpScores = new System.Windows.Forms.GroupBox();
@@ -463,25 +463,25 @@ namespace SuperNova.Gui
             this.sec_lblChatOnMute = new System.Windows.Forms.Label();
             this.sec_numChatMsgs = new System.Windows.Forms.NumericUpDown();
             this.sec_lblChatOnMsgs = new System.Windows.Forms.Label();
-            this.sec_numChatSecs = new SuperNova.Gui.TimespanUpDown();
+            this.sec_numChatSecs = new RelaySoftware.Gui.TimespanUpDown();
             this.sec_lblChatForMute = new System.Windows.Forms.Label();
-            this.sec_numChatMute = new SuperNova.Gui.TimespanUpDown();
+            this.sec_numChatMute = new RelaySoftware.Gui.TimespanUpDown();
             this.sec_grpCmd = new System.Windows.Forms.GroupBox();
             this.sec_cbCmdAuto = new System.Windows.Forms.CheckBox();
             this.sec_lblCmdOnMute = new System.Windows.Forms.Label();
             this.sec_numCmdMsgs = new System.Windows.Forms.NumericUpDown();
             this.sec_lblCmdOnMsgs = new System.Windows.Forms.Label();
-            this.sec_numCmdSecs = new SuperNova.Gui.TimespanUpDown();
+            this.sec_numCmdSecs = new RelaySoftware.Gui.TimespanUpDown();
             this.sec_lblCmdForMute = new System.Windows.Forms.Label();
-            this.sec_numCmdMute = new SuperNova.Gui.TimespanUpDown();
+            this.sec_numCmdMute = new RelaySoftware.Gui.TimespanUpDown();
             this.sec_grpIP = new System.Windows.Forms.GroupBox();
             this.sec_cbIPAuto = new System.Windows.Forms.CheckBox();
             this.sec_lblIPOnMute = new System.Windows.Forms.Label();
             this.sec_numIPMsgs = new System.Windows.Forms.NumericUpDown();
             this.sec_lblIPOnMsgs = new System.Windows.Forms.Label();
-            this.sec_numIPSecs = new SuperNova.Gui.TimespanUpDown();
+            this.sec_numIPSecs = new RelaySoftware.Gui.TimespanUpDown();
             this.sec_lblIPForMute = new System.Windows.Forms.Label();
-            this.sec_numIPMute = new SuperNova.Gui.TimespanUpDown();
+            this.sec_numIPMute = new RelaySoftware.Gui.TimespanUpDown();
             this.sec_grpOther = new System.Windows.Forms.GroupBox();
             this.sec_lblRank = new System.Windows.Forms.Label();
             this.sec_grpBlocks = new System.Windows.Forms.GroupBox();
@@ -489,7 +489,7 @@ namespace SuperNova.Gui
             this.sec_lblBlocksOnMute = new System.Windows.Forms.Label();
             this.sec_numBlocksMsgs = new System.Windows.Forms.NumericUpDown();
             this.sec_lblBlocksOnMsgs = new System.Windows.Forms.Label();
-            this.sec_numBlocksSecs = new SuperNova.Gui.TimespanUpDown();
+            this.sec_numBlocksSecs = new RelaySoftware.Gui.TimespanUpDown();
             this.pageChat.SuspendLayout();
             this.chat_grpTab.SuspendLayout();
             this.chat_grpMessages.SuspendLayout();
@@ -3010,7 +3010,7 @@ namespace SuperNova.Gui
             this.srv_numPlayers.BackColor = System.Drawing.SystemColors.Window;
             this.srv_numPlayers.Location = new System.Drawing.Point(83, 20);
             this.srv_numPlayers.Maximum = new decimal(new int[] {
-                                    SuperNova.Server.MAX_PLAYERS,
+                                    RelaySoftware.Server.MAX_PLAYERS,
                                     0,
                                     0,
                                     0});
@@ -3049,7 +3049,7 @@ namespace SuperNova.Gui
             this.srv_numGuests.BackColor = System.Drawing.SystemColors.Window;
             this.srv_numGuests.Location = new System.Drawing.Point(83, 47);
             this.srv_numGuests.Maximum = new decimal(new int[] {
-                                    SuperNova.Server.MAX_PLAYERS,
+                                    RelaySoftware.Server.MAX_PLAYERS,
                                     0,
                                     0,
                                     0});
@@ -5822,9 +5822,9 @@ namespace SuperNova.Gui
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private SuperNova.Gui.TimespanUpDown timespanUpDown3;
-        private SuperNova.Gui.TimespanUpDown timespanUpDown2;
-        private SuperNova.Gui.TimespanUpDown timespanUpDown1;
+        private RelaySoftware.Gui.TimespanUpDown timespanUpDown3;
+        private RelaySoftware.Gui.TimespanUpDown timespanUpDown2;
+        private RelaySoftware.Gui.TimespanUpDown timespanUpDown1;
         private System.Windows.Forms.GroupBox zs_grpTime;
         private System.Windows.Forms.GroupBox zs_grpMap;
         private System.Windows.Forms.Button zs_btnStart;
@@ -5836,12 +5836,12 @@ namespace SuperNova.Gui
         private System.Windows.Forms.Label ls_lblRound;
         private System.Windows.Forms.Label ls_lblFlood;
         private System.Windows.Forms.Label ls_lblLayerTime;
-        private SuperNova.Gui.TimespanUpDown ls_numRound;
-        private SuperNova.Gui.TimespanUpDown ls_numLayerTime;
-        private SuperNova.Gui.TimespanUpDown ls_numFlood;
-        private SuperNova.Gui.TimespanUpDown misc_numReview;
-        private SuperNova.Gui.TimespanUpDown hack_num;
-        private SuperNova.Gui.TimespanUpDown afk_numTimer;
+        private RelaySoftware.Gui.TimespanUpDown ls_numRound;
+        private RelaySoftware.Gui.TimespanUpDown ls_numLayerTime;
+        private RelaySoftware.Gui.TimespanUpDown ls_numFlood;
+        private RelaySoftware.Gui.TimespanUpDown misc_numReview;
+        private RelaySoftware.Gui.TimespanUpDown hack_num;
+        private RelaySoftware.Gui.TimespanUpDown afk_numTimer;
         private System.Windows.Forms.Label tw_lblAssist;
         private System.Windows.Forms.Label tw_lblMulti;
         private System.Windows.Forms.Button chat_btnWarn;
@@ -5938,9 +5938,9 @@ namespace SuperNova.Gui
         private System.Windows.Forms.Label rank_lblCopy;
         private System.Windows.Forms.NumericUpDown rank_numCopy;
         private System.Windows.Forms.CheckBox rank_cbAfk;
-        private SuperNova.Gui.TimespanUpDown rank_numAfk;
+        private RelaySoftware.Gui.TimespanUpDown rank_numAfk;
         private System.Windows.Forms.Label rank_lblUndo;
-        private SuperNova.Gui.TimespanUpDown rank_numUndo;
+        private RelaySoftware.Gui.TimespanUpDown rank_numUndo;
         private System.Windows.Forms.Label rank_lblDraw;
         private System.Windows.Forms.NumericUpDown rank_numDraw;
         private System.Windows.Forms.NumericUpDown rank_numMaps;
@@ -6062,26 +6062,26 @@ namespace SuperNova.Gui
         private System.Windows.Forms.GroupBox sec_grpChat;
         private System.Windows.Forms.CheckBox sec_cbChatAuto;
         private System.Windows.Forms.Label sec_lblChatForMute;
-        private SuperNova.Gui.TimespanUpDown sec_numChatMute;
+        private RelaySoftware.Gui.TimespanUpDown sec_numChatMute;
         private System.Windows.Forms.Label sec_lblChatOnMsgs;
         private System.Windows.Forms.NumericUpDown sec_numChatMsgs;
         private System.Windows.Forms.Label sec_lblChatOnMute;
-        private SuperNova.Gui.TimespanUpDown sec_numChatSecs;
+        private RelaySoftware.Gui.TimespanUpDown sec_numChatSecs;
         
         private System.Windows.Forms.GroupBox sec_grpCmd;
         private System.Windows.Forms.CheckBox sec_cbCmdAuto;
-        private SuperNova.Gui.TimespanUpDown sec_numCmdMute;
+        private RelaySoftware.Gui.TimespanUpDown sec_numCmdMute;
         private System.Windows.Forms.Label sec_lblCmdForMute;
-        private SuperNova.Gui.TimespanUpDown sec_numCmdSecs;
+        private RelaySoftware.Gui.TimespanUpDown sec_numCmdSecs;
         private System.Windows.Forms.Label sec_lblCmdOnMsgs;
         private System.Windows.Forms.NumericUpDown sec_numCmdMsgs;
         private System.Windows.Forms.Label sec_lblCmdOnMute;
         
         private System.Windows.Forms.GroupBox sec_grpIP;
         private System.Windows.Forms.CheckBox sec_cbIPAuto;
-        private SuperNova.Gui.TimespanUpDown sec_numIPMute;
+        private RelaySoftware.Gui.TimespanUpDown sec_numIPMute;
         private System.Windows.Forms.Label sec_lblIPForMute;
-        private SuperNova.Gui.TimespanUpDown sec_numIPSecs;
+        private RelaySoftware.Gui.TimespanUpDown sec_numIPSecs;
         private System.Windows.Forms.Label sec_lblIPOnMsgs;
         private System.Windows.Forms.NumericUpDown sec_numIPMsgs;
         private System.Windows.Forms.Label sec_lblIPOnMute;
@@ -6095,7 +6095,7 @@ namespace SuperNova.Gui
         
         private System.Windows.Forms.GroupBox sec_grpBlocks;
         private System.Windows.Forms.CheckBox sec_cbBlocksAuto;
-        private SuperNova.Gui.TimespanUpDown sec_numBlocksSecs;
+        private RelaySoftware.Gui.TimespanUpDown sec_numBlocksSecs;
         private System.Windows.Forms.Label sec_lblBlocksOnMsgs;
         private System.Windows.Forms.NumericUpDown sec_numBlocksMsgs;
         private System.Windows.Forms.Label sec_lblBlocksOnMute;
@@ -6124,7 +6124,7 @@ namespace SuperNova.Gui
         private System.Windows.Forms.TabPage pageMisc;
         private System.Windows.Forms.TextBox txtNormRp;
         private System.Windows.Forms.TextBox txtRP;
-        private SuperNova.Gui.TimespanUpDown bak_numTime;
+        private RelaySoftware.Gui.TimespanUpDown bak_numTime;
         private System.Windows.Forms.TextBox bak_txtLocation;
         private System.Windows.Forms.CheckBox hack_lbl;
         private System.Windows.Forms.CheckBox chat_chkFilter;
@@ -6236,7 +6236,7 @@ namespace SuperNova.Gui
         private System.Windows.Forms.NumericUpDown tw_numMultiKills;
         private System.Windows.Forms.GroupBox tw_grpGrace;
         private System.Windows.Forms.Label tw_lblGrace;
-        private SuperNova.Gui.TimespanUpDown tw_numGrace;
+        private RelaySoftware.Gui.TimespanUpDown tw_numGrace;
         private System.Windows.Forms.GroupBox tw_grpTeams;
         private System.Windows.Forms.CheckBox tw_cbKills;
         private System.Windows.Forms.CheckBox tw_cbBalance;

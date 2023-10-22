@@ -1,5 +1,5 @@
 ﻿/*
-    Copyright 2010 MCSharp team (Modified for use with MCZall/MCLawl/SuperNova)
+    Copyright 2010 MCSharp team (Modified for use with MCZall/MCLawl/RelaySoftware)
     
     Dual-licensed under the Educational Community License, Version 2.0 and
     the GNU General Public License, Version 3 (the "Licenses"); you may
@@ -19,9 +19,9 @@ using System;
 using System.IO;
 using System.Reflection;
 using System.Threading;
-using SuperNova.UI;
+using RelaySoftware.UI;
 
-namespace SuperNova.Cli {
+namespace RelaySoftware.Cli {
 #if DEV_BUILD_RELAY
   public static class Program {
 
@@ -83,7 +83,7 @@ namespace SuperNova.Cli {
             try {
                 Server.CLIMode = true;
             } catch {
-                // in case user is running CLI with older SuperNova dll which lacked CLIMode field
+                // in case user is running CLI with older RelaySoftware dll which lacked CLIMode field
             }
             Server.RestartPath = Assembly.GetEntryAssembly().Location;
         }

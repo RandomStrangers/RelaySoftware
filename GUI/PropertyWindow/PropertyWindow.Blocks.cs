@@ -1,5 +1,5 @@
 ﻿/*
-    Copyright 2015 SuperNova
+    Copyright 2015 RelaySoftware
         
     Dual-licensed under the Educational Community License, Version 2.0 and
     the GNU General Public License, Version 3 (the "Licenses"); you may
@@ -18,11 +18,11 @@
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using SuperNova.Blocks;
+using RelaySoftware.Blocks;
 using BlockID = System.UInt16;
 using BlockRaw = System.Byte;
 
-namespace SuperNova.Gui {
+namespace RelaySoftware.Gui {
     public partial class PropertyWindow : Form {
         BlockID curBlock;
         List<BlockID> blockIDMap;

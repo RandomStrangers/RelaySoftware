@@ -1,5 +1,5 @@
 /*
-    Copyright 2012 SuperNova
+    Copyright 2012 RelaySoftware
     Dual-licensed under the Educational Community License, Version 2.0 and
     the GNU General Public License, Version 3 (the "Licenses"); you may
     not use this file except in compliance with the Licenses. You may
@@ -19,9 +19,9 @@ using System;
 using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
-using SuperNova.UI;
+using RelaySoftware.UI;
 
-namespace SuperNova.Gui.Components {
+namespace RelaySoftware.Gui.Components {
 
     /// <summary> Extended rich text box that auto-colors minecraft classic text. </summary>
     public class ColoredTextBox : RichTextBox {

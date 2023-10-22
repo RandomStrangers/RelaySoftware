@@ -1,5 +1,5 @@
 ﻿/*    
-    Copyright 2010 MCSharp team (Modified for use with MCZall/MCLawl/SuperNova)
+    Copyright 2010 MCSharp team (Modified for use with MCZall/MCLawl/RelaySoftware)
     
     Dual-licensed under the    Educational Community License, Version 2.0 and
     the GNU General Public License, Version 3 (the "Licenses"); you may
@@ -17,9 +17,9 @@
 */
 using System;
 using System.Windows.Forms;
-using SuperNova.UI;
+using RelaySoftware.UI;
 
-namespace SuperNova.Gui {
+namespace RelaySoftware.Gui {
     public partial class Window : Form {
         PlayerProperties playerProps;
         

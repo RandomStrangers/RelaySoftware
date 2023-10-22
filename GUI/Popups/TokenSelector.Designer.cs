@@ -1,4 +1,4 @@
-﻿namespace SuperNova.Gui.Popups {
+﻿namespace RelaySoftware.Gui.Popups {
     partial class TokenSelector {
         
         /// <summary>

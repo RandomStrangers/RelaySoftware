@@ -1,5 +1,5 @@
 ﻿/*
-    Copyright 2015 SuperNova
+    Copyright 2015 RelaySoftware
         
     Dual-licensed under the Educational Community License, Version 2.0 and
     the GNU General Public License, Version 3 (the "Licenses"); you may
@@ -21,7 +21,7 @@ using System.Globalization;
 using System.Media;
 using System.Windows.Forms;
 
-namespace SuperNova.Gui {
+namespace RelaySoftware.Gui {
     [DefaultBindingProperty("Seconds"), DefaultEvent("ValueChanged"), DefaultProperty("Seconds")]
     public class TimespanUpDown : UpDownBase, ISupportInitialize {
         long totalSecs;

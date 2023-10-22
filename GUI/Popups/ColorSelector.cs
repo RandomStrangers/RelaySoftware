@@ -2,9 +2,9 @@
 using System.Windows.Forms;
 using System.Drawing;
 using System;
-using SuperNova;
+using RelaySoftware;
 
-namespace SuperNova.Gui.Popups 
+namespace RelaySoftware.Gui.Popups 
 {
     internal sealed partial class ColorSelector : Form 
     {

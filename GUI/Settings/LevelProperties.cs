@@ -1,5 +1,5 @@
 ﻿/*
-    Copyright 2015 SuperNova
+    Copyright 2015 RelaySoftware
         
     Dual-licensed under the Educational Community License, Version 2.0 and
     the GNU General Public License, Version 3 (the "Licenses"); you may
@@ -17,10 +17,10 @@
  */
 using System;
 using System.ComponentModel;
-using SuperNova.Commands.World;
-using SuperNova.UI;
+using RelaySoftware.Commands.World;
+using RelaySoftware.UI;
 
-namespace SuperNova.Gui {
+namespace RelaySoftware.Gui {
     public sealed class LevelProperties {     
         readonly Level lvl;
         readonly LevelConfig cfg;

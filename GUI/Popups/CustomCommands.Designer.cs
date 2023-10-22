@@ -1,4 +1,4 @@
-﻿namespace SuperNova.Gui.Popups {
+﻿namespace RelaySoftware.Gui.Popups {
     partial class CustomCommands {
         /// <summary>
         /// Designer variable used to keep track of non-visual components.

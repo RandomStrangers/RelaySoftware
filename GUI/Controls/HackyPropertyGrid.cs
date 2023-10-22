@@ -1,5 +1,5 @@
 ﻿/*
-    Copyright 2015 SuperNova
+    Copyright 2015 RelaySoftware
     
     Dual-licensed under the Educational Community License, Version 2.0 and
     the GNU General Public License, Version 3 (the "Licenses"); you may
@@ -21,7 +21,7 @@ using System.Windows.Forms;
 using System.Windows.Forms.Design;
 using System.Windows.Forms.PropertyGridInternal;
 
-namespace SuperNova.Gui {
+namespace RelaySoftware.Gui {
     /// <summary> Hacky workaround for PropertyGrid to fix crashing with some versions of wine-mono </summary>
     public sealed class HackyPropertyGrid : PropertyGrid {
         
@@ -46,7 +46,7 @@ Trace:   at System.Windows.Forms.PropertyGrid.UpdatePropertiesViewTabVisibility 
   at System.Windows.Forms.PropertyGrid.set_SelectedObjects (System.Object[] value)
   at System.Windows.Forms.PropertyGrid.set_SelectedObject (System.Object value)
   at (wrapper remoting-invoke-with-check) System.Windows.Forms.PropertyGrid.set_SelectedObject(object)
-  at SuperNova.Gui.Window.pl_listBox_Click (System.Object sender, System.EventArgs e)
+  at RelaySoftware.Gui.Window.pl_listBox_Click (System.Object sender, System.EventArgs e)
   at System.Windows.Forms.Control.OnClick (System.EventArgs e)
   at System.Windows.Forms.ListBox.WndProc (System.Windows.Forms.Messagem)
   at System.Windows.Forms.Control+ControlNativeWindow.OnMessage (System.Windows.Forms.Messagem)
@@ -64,10 +64,10 @@ Trace:   at System.Windows.Forms.PropertyGrid.RefreshProperties (System.Boolean 
   at System.Windows.Forms.Control.AssignParent (System.Windows.Forms.Control value)
   at System.Windows.Forms.Control+ControlCollection.Add (System.Windows.Forms.Control value)
   at System.Windows.Forms.TabPage+TabPageControlCollection.Add (System.Windows.Forms.Control value)
-  at SuperNova.Gui.PropertyWindow.InitializeComponent ()
-  at SuperNova.Gui.PropertyWindow..ctor ()
-  at (wrapper remoting-invoke-with-check) SuperNova.Gui.PropertyWindow..ctor()
-  at SuperNova.Gui.Window.btnProperties_Click (System.Object sender, System.EventArgs e)
+  at RelaySoftware.Gui.PropertyWindow.InitializeComponent ()
+  at RelaySoftware.Gui.PropertyWindow..ctor ()
+  at (wrapper remoting-invoke-with-check) RelaySoftware.Gui.PropertyWindow..ctor()
+  at RelaySoftware.Gui.Window.btnProperties_Click (System.Object sender, System.EventArgs e)
   at System.Windows.Forms.Control.OnClick (System.EventArgs e)
   at System.Windows.Forms.Button.OnClick (System.EventArgs e)
   at System.Windows.Forms.Button.OnMouseUp (System.Windows.Forms.MouseEventArgs mevent)

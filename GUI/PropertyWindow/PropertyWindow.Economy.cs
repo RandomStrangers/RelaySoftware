@@ -1,5 +1,5 @@
 ﻿/*
-    Copyright 2011 SuperNova
+    Copyright 2011 RelaySoftware
         
     Dual-licensed under the Educational Community License, Version 2.0 and
     the GNU General Public License, Version 3 (the "Licenses"); you may
@@ -19,10 +19,10 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Windows.Forms;
-using SuperNova.Eco;
-using SuperNova.Generator;
+using RelaySoftware.Eco;
+using RelaySoftware.Generator;
 
-namespace SuperNova.Gui {
+namespace RelaySoftware.Gui {
 
     public partial class PropertyWindow : Form {
         

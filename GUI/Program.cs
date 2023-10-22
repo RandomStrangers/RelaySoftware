@@ -1,5 +1,5 @@
 /*
-    Copyright 2010 MCSharp team (Modified for use with MCZall/MCLawl/SuperNova)
+    Copyright 2010 MCSharp team (Modified for use with MCZall/MCLawl/RelaySoftware)
     
     Dual-licensed under the Educational Community License, Version 2.0 and
     the GNU General Public License, Version 3 (the "Licenses"); you may
@@ -21,9 +21,9 @@ using System.IO;
 using System.Reflection;
 using System.Threading;
 using System.Windows.Forms;
-using SuperNova;
+using RelaySoftware;
 
-namespace SuperNova.Gui 
+namespace RelaySoftware.Gui 
 {
 #if DEV_BUILD_RELAY
     public static class Program

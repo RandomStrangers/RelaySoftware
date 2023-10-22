@@ -3,7 +3,7 @@ using System;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace SuperNova.Gui.Popups 
+namespace RelaySoftware.Gui.Popups 
 {
     internal sealed partial class TokenSelector : Form 
     {

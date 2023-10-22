@@ -1,6 +1,6 @@
 /*
  
-    Copyright 2012 SuperNova
+    Copyright 2012 RelaySoftware
     Dual-licensed under the Educational Community License, Version 2.0 and
     the GNU General Public License, Version 3 (the "Licenses"); you may
     not use this file except in compliance with the Licenses. You may
@@ -21,9 +21,9 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Net.Sockets;
 using System.Windows.Forms;
-using SuperNova.Core;
+using RelaySoftware.Core;
 
-namespace SuperNova.Gui.Popups 
+namespace RelaySoftware.Gui.Popups 
 {
     public partial class PortTools : Form 
     {

@@ -1,5 +1,5 @@
 ﻿/*
-    Copyright 2011 SuperNova
+    Copyright 2011 RelaySoftware
     
     Dual-licensed under the    Educational Community License, Version 2.0 and
     the GNU General Public License, Version 3 (the "Licenses"); you may
@@ -17,8 +17,8 @@
 */
 using System.Reflection;
 
-[assembly: AssemblyTitle("SuperNova")]
+[assembly: AssemblyTitle("RelaySoftware")]
 [assembly: AssemblyDescription("ClassiCube Server Software")]
-[assembly: AssemblyProduct("SuperNova")]
+[assembly: AssemblyProduct("RelaySoftware")]
 [assembly: AssemblyCopyright("Copyright © 2015-2022")]
-[assembly: AssemblyVersion(SuperNova.Server.InternalVersion)]
+[assembly: AssemblyVersion(RelaySoftware.Server.InternalVersion)]
